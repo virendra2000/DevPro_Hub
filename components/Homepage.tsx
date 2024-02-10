@@ -66,7 +66,7 @@ const Homepage = () => {
                     </div>
                     <div className="content-illustrate flex flex-col items-center justify-center w-full md:w-[45%]">
                         <div className="p-1">
-                            <Image src="/avatar.png"
+                            <Image src="/Avatar.png"
                             alt="avatar"
                             width={450}
                             height={450}
