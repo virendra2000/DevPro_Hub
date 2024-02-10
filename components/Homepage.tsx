@@ -4,7 +4,6 @@ import Typed from "typed.js"
 import Link from "next/link";
 import React, { useEffect } from 'react';
 import Button from "./Button";
-import 'boxicons'
 const Homepage = () => {
     useEffect(() => {
         const typed = new Typed('.multiple-text', {
@@ -59,7 +58,7 @@ const Homepage = () => {
                             </Link>
                         </div>
                         <Link href="/">
-                        <Button 
+                            <Button 
                             type="button"
                             title="Download CV"
                             variant="btn mt-2 px-2 py-2 w-[25%] rounded-full border-0 bg-orange-500 dark:bg-white text-white dark:text-black shadow-lg hover:shadow-orange-500 dark:hover:shadow-white"/>
