@@ -1,9 +1,9 @@
 const Skill = () => {
     return (
         <>
-            <section className="p-5 h-auto bg-slate-100 dark:bg-slate-800 flex flex-col items-center justify-center w-full">
+            <section className="p-5 h-auto bg-slate-100 dark:bg-slate-800 flex flex-col items-center justify-center w-full" id="skill">
                 <h2 className="head3 p-2 text-black dark:text-white text-4xl font-bold">My <span className="text-blue-600 dark:text-yellow-300">Skills</span></h2>
-                <div className="skill-container w-full flex flex-row items-center justify-center">
+                <div className="skill-container w-full flex flex-col md:flex-row items-center justify-center">
                     <div className="softkill-container flex flex-col w-full md:w-[45%]">
                         <h2 className="head3 p-2 text-black dark:text-white text-2xl font-bold">Soft Skills</h2>
 

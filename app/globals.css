@@ -34,6 +34,9 @@
 .head2 {
   animation: slideRight 1s ease forwards;
 }
+.slidetop {
+  animation: slideTop 1s ease forwards;
+}
 .icon {
   animation: slideRight 1s ease forwards;
 }
@@ -42,6 +45,12 @@
 }
 .head3 {
   animation: slideBottom 1s ease forwards;
+}
+.softkill-container {
+  animation: slideRight 1s ease forwards;
+}
+.hardskill-container {
+  animation: slideLeft 1s ease forwards;
 }
 .card {
   transition: 0.5s;
@@ -70,28 +79,18 @@
   transition: transform 0.3s ease;
 }
 
-.text-overlay {
+.project-card:hover .text-overlay {
   position: absolute;
   border-radius: 15px;
   top: 50%;
   left: 50%;
   width: 350px;
   height: 500px;
-  background-color: #fff;
   align-items: center;
   transform: translate(-50%, -50%);
-  opacity: 0;
+  opacity: 1;
   transition: opacity 0.3s ease;
   text-align: center;
-}
-
-.project-card:hover .text-overlay {
-  opacity: 0.5;
-}
-
-.project-card:hover .text-overlay .head-txt {
-  color: #000;
-  opacity: 2;
 }
 
 .project-card:hover .image {
@@ -147,3 +146,22 @@
     }
     
  }
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: orangered; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: orangered; 
+}   

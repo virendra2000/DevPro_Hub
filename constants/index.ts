@@ -2,31 +2,31 @@
 export const NAV_LINKS = [
     { href: '/', key: '1', label: 'Home' },
     { href: '#about', key: '2', label: 'About' },
-    { href: '/', key: '3', label: 'Domain' },
-    { href: '/', key: '4', label: 'Skills' },
-    { href: '/', key: '5', label: 'Projects' },
-    { href: '/', key: '6', label: 'Contact' },
+    { href: '#domain', key: '3', label: 'Domain' },
+    { href: '#skill', key: '4', label: 'Skills' },
+    { href: '#project', key: '5', label: 'Projects' },
+    { href: '#footer', key: '6', label: 'Contact' },
   ];
 
 export const PROJECT_DETAIL = [
   {
-    href:'/',
-    key:'2',
-    projecttitle:'Advanced CCTV Analytical Solution',
-    projectdesc:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar sapien eget nisi tristique, eu facilisis arcu molestie. Proin scelerisque, dui at posuere sodales, justo tortor placerat lectus, vel convallis purus odio sit amet enim.',
+    href:'https://drive.google.com/drive/folders/10uubmJWdaoPVuZICfh6WxtTvR3KGEKcl?usp=drive_link',
+    key:'1',
+    projecttitle:'Netra - Advanced CCTV Analytical Solution',
+    projectdesc:'A cutting-edge CCTV solution employs real-time object detection, tracking, and behavior analysis, integrated with hybrid cloud infrastructure, effectively enhancing security measures and enabling efficient threat detection across diverse environments.',
     imgurl:'/BgImage1.jpg',
     altdesc:'project1'
   },
   {
     href:'/',
     key:'2',
-    projecttitle:'Advanced CCTV Analytical Solution',
-    projectdesc:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar sapien eget nisi tristique, eu facilisis arcu molestie. Proin scelerisque, dui at posuere sodales, justo tortor placerat lectus, vel convallis purus odio sit amet enim.',
+    projecttitle:'QuickAdmit Plus - Patient Automation Management System',
+    projectdesc:'Develop QuickAdmit Plus, an integrated solution using facial recognition and EHR integration, to streamline hospital admissions and enhance patient record management, addressing inefficiencies and improving healthcare delivery.',
     imgurl:'/BgImage2.jpg',
     altdesc:'project1'
   },
   {
-    href:'/',
+    href:'https://creditify.vercel.app/',
     key:'3',
     projecttitle:'Creditify - Co-curriculum Bank of Credits',
     projectdesc:'Introducing the Co-curricular Bank of Credits - an innovative platform streamlining extracurricular documentation and recognition, empowering students to track their achievements transparently and efficiently.',
@@ -34,19 +34,11 @@ export const PROJECT_DETAIL = [
     altdesc:'project1'
   },
   {
-    href:'/',
+    href:'https://sportsbuddyweb.vercel.app/',
     key:'4',
     projecttitle:'SportsBuddy',
-    projectdesc:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar sapien eget nisi tristique, eu facilisis arcu molestie. Proin scelerisque, dui at posuere sodales, justo tortor placerat lectus, vel convallis purus odio sit amet enim.',
+    projectdesc:'Sports Buddy, powered by Android, connects users worldwide based on shared sports interests, locations, and schedules. Users establish their abilities, fostering genuine interactions and facilitating meet-ups in over N sports, promoting meaningful connections beyond social circles.',
     imgurl:'/BgImage4.jpg',
-    altdesc:'project1'
-  },
-  {
-    href:'/',
-    key:'5',
-    projecttitle:'Face Mask Detection',
-    projectdesc:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar sapien eget nisi tristique, eu facilisis arcu molestie. Proin scelerisque, dui at posuere sodales, justo tortor placerat lectus, vel convallis purus odio sit amet enim.',
-    imgurl:'/BgImage1.jpg',
     altdesc:'project1'
   },
 ]

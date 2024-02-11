@@ -27,7 +27,7 @@ const Homepage = () => {
                         <h2 className="head2 text-3xl py-1 text-black dark:text-white">And I am A <span className="multiple-text text-blue-500 dark:text-yellow-400"></span></h2>
                         <p className="text1 text-md py-2 text-black dark:text-white text-justify">Passionate Full Stack Web Developer 🔥 | Transforming ideas into captivating web experiences 💻 | Constant learner 📚 | Enthusiastic about creating pixel-perfect designs ✨ | Open to new opportunities 🚀 | Lets connect and build something amazing together! 🤝</p>
 
-                        <div className="icon py-2 flex flex-row w-[45%] items-center justify-between">
+                        <div className="icon py-2 flex flex-row w-[45%] gap-2 items-center justify-between">
                             <Link href="https://github.com/virendra2000">
                                 <Image src="/boxicons/svg/logos/bxl-github.svg"
                                 alt="github"
@@ -57,14 +57,14 @@ const Homepage = () => {
                                 className="p-2 bg-white invert dark:invert-0 dark:bg-white rounded-full shadow-lg hover:shadow-white dark:hover:shadow-white"/>
                             </Link>
                         </div>
-                        <Link href="/">
+                        <Link href="https://flowcv.com/resume/oegk2o7cle">
                             <Button 
                             type="button"
                             title="Download CV"
                             variant="btn mt-2 px-2 py-2 w-full md:w-[35%] rounded-full border-0 bg-orange-500 dark:bg-white text-white dark:text-black shadow-lg hover:shadow-orange-500 dark:hover:shadow-white"/>
                         </Link>
                     </div>
-                    <div className="content-illustrate flex flex-col items-center justify-center w-full md:w-[45%]">
+                    <div className="p-2 content-illustrate flex flex-col items-center justify-center w-full md:w-[45%]">
                         <div className="p-1">
                             <Image src="/Avatar.png"
                             alt="avatar"
