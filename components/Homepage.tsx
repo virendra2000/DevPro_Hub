@@ -23,8 +23,8 @@ const Homepage = () => {
                 <div className="home-container w-full flex flex-col-reverse md:flex-row items-center justify-center">
                     <div className="content-text flex flex-col w-full md:w-[45%] font-bold">
                         <h1 className="head2 text-3xl py-1  text-black dark:text-white">Hello , Its Me</h1>
-                        <h1 className="head1 text-[50px] font-extrabold py-1 text-orange-500 dark:text-white">Virendra Kalwar</h1>
-                        <h1 className="head2 text-3xl py-1 text-black dark:text-white">And I am A <span className="multiple-text text-blue-500 dark:text-yellow-400"></span></h1>
+                        <h2 className="head1 text-[50px] font-extrabold py-1 text-orange-500 dark:text-white">Virendra Kalwar</h2>
+                        <h2 className="head2 text-3xl py-1 text-black dark:text-white">And I am A <span className="multiple-text text-blue-500 dark:text-yellow-400"></span></h2>
                         <p className="text1 text-md py-2 text-black dark:text-white text-justify">Passionate Full Stack Web Developer 🔥 | Transforming ideas into captivating web experiences 💻 | Constant learner 📚 | Enthusiastic about creating pixel-perfect designs ✨ | Open to new opportunities 🚀 | Lets connect and build something amazing together! 🤝</p>
 
                         <div className="icon py-2 flex flex-row w-[45%] items-center justify-between">
@@ -61,12 +61,12 @@ const Homepage = () => {
                             <Button 
                             type="button"
                             title="Download CV"
-                            variant="btn mt-2 px-2 py-2 w-[25%] rounded-full border-0 bg-orange-500 dark:bg-white text-white dark:text-black shadow-lg hover:shadow-orange-500 dark:hover:shadow-white"/>
+                            variant="btn mt-2 px-2 py-2 w-full md:w-[35%] rounded-full border-0 bg-orange-500 dark:bg-white text-white dark:text-black shadow-lg hover:shadow-orange-500 dark:hover:shadow-white"/>
                         </Link>
                     </div>
                     <div className="content-illustrate flex flex-col items-center justify-center w-full md:w-[45%]">
                         <div className="p-1">
-                            <Image src="/avatar.png"
+                            <Image src="/Avatar.png"
                             alt="avatar"
                             width={450}
                             height={450}

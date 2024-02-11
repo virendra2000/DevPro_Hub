@@ -4,7 +4,6 @@ import Link from "next/link"
 import { NAV_LINKS } from "@/constants"
 import useDarkMode from "@/constants/useDarkMode"
 import React, { useState } from 'react';
-import { link } from "fs"
 const Navbar = () => {
     const [colorTheme, setTheme] = useDarkMode();
     const [menuOpen, setMenuOpen] = useState(false);
