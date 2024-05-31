@@ -10,7 +10,7 @@ export const NAV_LINKS = [
 
 export const PROJECT_DETAIL = [
   {
-    href:'https://drive.google.com/drive/folders/10uubmJWdaoPVuZICfh6WxtTvR3KGEKcl?usp=drive_link',
+    href:'https://netraai.vercel.app/',
     key:'1',
     projecttitle:'Netra - Advanced CCTV Analytical Solution',
     projectdesc:'A cutting-edge CCTV solution employs real-time object detection, tracking, and behavior analysis, integrated with hybrid cloud infrastructure, effectively enhancing security measures and enabling efficient threat detection across diverse environments.',
@@ -18,7 +18,7 @@ export const PROJECT_DETAIL = [
     altdesc:'project1'
   },
   {
-    href:'/',
+    href:'https://quickadmitplus.vercel.app/',
     key:'2',
     projecttitle:'QuickAdmit Plus - Patient Automation Management System',
     projectdesc:'Develop QuickAdmit Plus, an integrated solution using facial recognition and EHR integration, to streamline hospital admissions and enhance patient record management, addressing inefficiencies and improving healthcare delivery.',

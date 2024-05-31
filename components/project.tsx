@@ -1,11 +1,12 @@
 import Image from "next/image"
 import { PROJECT_DETAIL } from "@/constants"
 import Link from "next/link"
+import Footer from "@/components/footer";
 const Project = () => {
     return (
         <>
-            <section className="p-5 h-auto bg-slate-100 dark:bg-slate-800 flex flex-col items-center justify-center w-full" id="project">
-                <h2 className="head3 p-2 text-black dark:text-white text-4xl font-bold">Latest <span className="text-blue-600 dark:text-yellow-300">Projects</span></h2>
+            <section className="project p-5 h-auto bg-transparent flex flex-col items-center justify-center w-full" id="project">
+                <h2 className="head3 p-2 text-white text-4xl font-bold">Latest <span className="text-yellow-300">Projects</span></h2>
 
                 <div className="skill-container mt-5 w-full flex flex-row flex-wrap gap-4 items-center justify-center">
                 {PROJECT_DETAIL.map((link) => (
@@ -30,6 +31,7 @@ const Project = () => {
                     </div>
                 ))}
                 </div>
+		<Footer/>
             </section>
         </>
     )
