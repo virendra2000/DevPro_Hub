@@ -21,7 +21,7 @@ const Homepage = () => {
         }, []);
     return (
         <>
-            <section className="home min-h-screen bg-tranparent flex flex-col justify-center min-w-screen">
+            <section className="p-2 home min-h-screen bg-tranparent flex flex-col justify-center min-w-screen">
 		<Navbar/>
                 <div className="home-container w-full flex flex-col-reverse md:flex-row items-center justify-center">
                     <div className="content-text flex flex-col w-full md:w-[45%] font-bold">
